@@ -30,7 +30,7 @@ main {
 .hero {
     position: relative;
     padding: 20px 40px;
-    height: 922px;
+    height: 100vh;
     display: flex;
     flex-direction: column;
 }
@@ -115,6 +115,7 @@ a {
     right: 50px;
     bottom: 0;
     user-select: none;
+    height: 80vh;
 }
 
 
@@ -602,6 +603,8 @@ footer path:hover {
         gap: 15px;
     }
     .title {
+        position: relative;
+        bottom: 150px;
         margin-top: 300px;
         z-index: 55;
         display: flex;
@@ -623,6 +626,7 @@ footer path:hover {
     .btnContact {
         align-self: center;
         position: relative;
+        bottom: 200px;
         z-index: 150;
     }
     .card__trabajo-instagram {
