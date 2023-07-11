@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function() {
     secondImg.src = listCard[index].secondImg
     logo.src = listCard[index].logo
     btnLink.href = listCard[index].link
-    btnLink.classList.add("btnContact")
+    btnLink.classList.add("btnSocial")
     
     btnLink.appendChild(svg)
     contenedorCarousel.appendChild(firstImg)

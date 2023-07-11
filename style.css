@@ -106,6 +106,20 @@ a {
     text-transform: uppercase;
     transition: 0.3s;
 }
+.btnSocial {
+    cursor: pointer;
+    font-family: "Montserrat";
+    width: 300px;
+    background-color: var(--primaryColor);
+    color: #fff;
+    border-radius: 100px;
+    border: none;
+    padding: 20px 25px;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
 .btnContact:hover {
     box-shadow: 0px 0px 16px #02C2FF;
     transform: scale(1.05);
@@ -628,6 +642,21 @@ footer path:hover {
         position: relative;
         bottom: 200px;
         z-index: 150;
+    }
+    .btnSocial {
+        cursor: pointer;
+        font-family: "Montserrat";
+        width: 300px;
+        background-color: var(--primaryColor);
+        color: #fff;
+        border-radius: 100px;
+        border: none;
+        padding: 20px 25px;
+        font-size: 18px;
+        font-weight: 600;
+        text-transform: uppercase;
+        transition: 0.3s;
+
     }
     .card__trabajo-instagram {
         width: 50%;
